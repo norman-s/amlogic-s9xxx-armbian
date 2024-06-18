@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       set_release:
-        description: "Select OS Release."
+        description: "S2e."
         required: false
         default: "jammy"
         type: choice
@@ -20,7 +20,7 @@ on:
           - bullseye
           - bookworm
       armbian_board:
-        description: "Select device board."
+        description: ”s905l3a-cm311."
         required: false
         default: "all"
         type: choice
