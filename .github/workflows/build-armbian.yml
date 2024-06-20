@@ -22,7 +22,7 @@ on:
       armbian_board:
         description: ”s905l3a-cm311."
         required: false
-        default: "all"
+        default: "s905l3a"
         type: choice
         options:
           - all
